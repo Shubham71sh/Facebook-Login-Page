@@ -1,0 +1,95 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.logo{
+    width: 200px;
+    height: 200px;
+    display:flex;
+    align-items: center;
+    padding-right: 165px;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    padding-top: 40px;
+    background-color: #f0f2f5;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 5px;
+    height: 400px;
+    width: 350px;
+    padding: 20px;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.1);
+} 
+.container input{
+    height: 40px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 0 15px;
+    font-size: 1rem;
+    outline: none;
+}
+
+::placeholder{
+    font-size: 1rem;
+    color: #777;
+}
+
+button{
+    background-color:#1877f2 ;
+    width: 70%;
+    height: 40px;
+    padding: 15px 0;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-weight: bold;
+} 
+
+a{
+    text-decoration: none;
+    margin-bottom: 20px;
+    color: #1366d1;
+}
+
+.new-account{
+    background-color:#42b72a;
+    border: none;
+    cursor: pointer;
+}
+.new-account:hover{
+    background-color: #3ba327;
+}
+
+.login-btn:hover{
+    background-color: #1366d1;
+}
+
+.login-btn{
+    border: none;
+    outline: none;
+    border-radius: 7px;
+    height: 40px;
+    width: 70%;
+    background-color: #1877f2;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 0;
+    transition: 0.25 ease;
+    margin-bottom: 20px;
+}
+.style{
+    padding-bottom: 20px;
+}
